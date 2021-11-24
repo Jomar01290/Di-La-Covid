@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Call_now">
+
+    <TextView
+        android:id="@+id/hotline1"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="9dp"
+        android:layout_toStartOf="@+id/callHotline1"
+        android:gravity="center"
+        android:text="DOH- 02-894-26843"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/callHotline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="516dp"
+        android:backgroundTint="#F33131"
+        android:text="Call Now"
+        android:textSize="10dp" />
+
+
+    <TextView
+        android:id="@+id/hotline2"
+        android:layout_width="232dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="3dp"
+        android:layout_toStartOf="@+id/callHotline2"
+        android:gravity="center"
+        android:text="City of Manila- 09610627013"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/callHotline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="414dp"
+        android:backgroundTint="#F33131"
+        android:text="Call Now"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/callHotline3"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="337dp"
+        android:backgroundTint="#F33131"
+        android:text="Call Now"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/callHotline4"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="471dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="245dp"
+        android:backgroundTint="#F33131"
+        android:text="Call Now"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="73dp"
+        android:gravity="center"
+        android:text="Emergency Contact \n Numbers"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/backkk"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="347dp"
+        android:layout_marginBottom="686dp"
+        app:srcCompat="@drawable/backk" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="123dp"
+        app:srcCompat="@drawable/emergencyicon" />
+
+    <TextView
+        android:id="@+id/hotline3"
+        android:layout_width="232dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/callHotline2"
+        android:gravity="center"
+        android:text="PNP Urd- 0998 598 5134"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hotline4"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="474dp"
+        android:layout_marginEnd="-9dp"
+        android:layout_toStartOf="@+id/callHotline2"
+        android:gravity="center"
+        android:text="Philippine Red Cross Hotline 1158"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
